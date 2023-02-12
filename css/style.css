@@ -1,0 +1,124 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #222;
+    color: white;
+}
+section
+{
+text-align: center;
+margin: auto;
+}
+.cruds h1
+{
+    text-transform:uppercase;
+     font-size: 30px;
+     font-weight: 800;
+     font-family:sans-serif;
+}
+.title h2
+{
+    text-transform:uppercase;
+    font-size: 15px;
+     font-weight: 600;
+     font-family:sans-serif;
+}
+#title
+{
+    margin: 10px 0px;
+}    
+     input
+{
+    width:60%;
+    height: 30px;
+    margin: 5px 0;
+    background-color: #111;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+}
+    #total
+{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+    :focus
+{
+    background-color: #000;
+    transform: scale(1.1);
+    }
+    .input input
+{
+    width: 14%;
+}
+
+button
+{
+    width:60%;
+    height: 30px;
+    background-color:palevioletred;
+    margin: 4px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 7px;
+    text-transform: capitalize;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+ }
+ .btns
+ {
+   width: 100%;
+    display: flex;
+    justify-content:center;
+ }
+    button
+ {
+  width:27% ;
+  margin:0px 20px;
+   
+ }
+table
+{
+    width: 60%;
+   margin: auto;
+}
+   tr th
+{
+text-transform:uppercase;
+font-family: sans-serif;
+}
+th,td
+{
+    padding: 10px;
+}
+td button 
+{
+    width: 50px;
+}
+   
+input:focus
+{
+    background-color: #000;
+    transform: scale(1.1);
+}
+
+
+  button:focus
+ {
+     background-color:pink;
+     transform: scale(1.1);
+ }
+
+

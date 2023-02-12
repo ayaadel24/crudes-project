@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Product System</title>
+</head>
+<body>
+    <!-- Section in Browser -->
+    <section id="header">
+
+        <div
+         class="cruds">
+            <h1>
+                cruds
+            </h1>
+        </div>
+
+        <div
+         class="title ">
+            <h2>
+                product management system
+            </h2>
+        </div>
+
+         <!-- start Form   -->
+ 
+
+         <div id="title">
+            <input
+             type="text"
+              placeholder="title"
+               id="tit">
+            
+            <div class="input">
+                <input
+                 onkeyup="gettotal()" 
+                 type="number"  
+                 placeholder="price" 
+                 id="price">
+
+                <input 
+                onkeyup="gettotal()" 
+                type="number" 
+                placeholder="taxes" 
+                id="taxes">
+
+                <input 
+                onkeyup="gettotal()"
+                 type="number" 
+                 placeholder="ads" 
+                 id="ads">
+
+                <input 
+                onkeyup="gettotal()" 
+                type="number" 
+                placeholder="discount" 
+                id="discount">
+
+                <small 
+                onkeyup="gettotal()" 
+                id="total" >
+                12422
+               </small>
+
+            </div>
+
+                <input 
+                type="number" 
+                placeholder="count" 
+                id="count">
+
+                <input 
+                type="text" 
+                placeholder="catagory" 
+                id="catagory">
+
+                <div class="btn">
+
+                <button 
+                id="sumbit">
+                create
+               </button>
+
+                </div>
+                <input
+                 type="text" 
+                 placeholder="search" 
+                 id="search">
+                </div>
+                </div>
+        
+            <div 
+            class="btns">
+            <button 
+            id="sum">
+            search by title
+            </button>
+
+            <button 
+            id="sum">
+            search by catagory
+           </button>
+
+            </div>
+            <!-- end form -->
+             
+            <!-- start table -->
+            <table>
+                <tr>
+                <th>id</th>
+                <th>title</th>
+                <th>price</th>
+                <th>taxes</th>
+                <th>ads</th>
+                <th>discount</th>
+                <th>total</th>
+                <th>category</th>
+                <th>update</th>
+                <th>delete</th>
+                </tr>
+
+                <tbody id="tbody" >
+                    <!-- <tr>
+                        <td>1</th>
+                        <td>lg tv</td>
+                        <td>15000</td>
+                        <td>100</td>
+                        <td>200</td>
+                        <td>100</td>
+                        <td>2000</td>
+                        <td>tv</td>
+                        <td><button id="sumb">update</button>
+                            <button id="sumb">delete</button>
+                        </td>
+                    </tr> -->
+
+                
+
+                </tbody>
+            </table>
+            <!-- end table -->
+            
+
+    </section>
+    <!-- End Section in Browser -->
+
+  
+     <script src="js/main.js"></script>
+    
+</body>
+</html>   
